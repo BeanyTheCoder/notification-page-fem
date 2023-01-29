@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./main.css">
+  <!--Font Family-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">  
+  <script src="main.js"></script>
+  <!--Favicon-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Notifications page</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="notifications-body">
+      <div class="header-bar">
+        <h1>Notifications <span>3</span></h1>
+        <p onclick="markAsRead()" id="markar">Mark all as read</p>
+      </div>
+      <div class="rows">
+        <div class="row-item important">
+          <img src="/assets/images/avatar-mark-webber.webp" alt="">
+          <div class="content">
+            <p class="text"><a href="#" class="dark">Mark Webber</a> reacted to your recent post <a href="#" class="post">My first tournament today!</a></p>
+            <p>1m ago</p>
+          </div>
+        </div>
+        <div class="row-item important">
+          <img src="/assets/images/avatar-angela-gray.webp" alt="">
+          <div class="content">
+            <p class="text"><a href="#" class="dark">Angela Gray</a> followed you</p>
+            <p>5m ago</p>
+          </div>
+        </div>
+        <div class="row-item important">
+          <img src="/assets/images/avatar-jacob-thompson.webp" alt="">
+          <div class="content">
+            <p class="text"><a href="#" class="dark">Jacob Thompson</a> has joined your group <a href="" class="grp">Chess Club</a></p>
+            <p>1 day ago</p>
+          </div>
+        </div>
+        <div class="row-item">
+          <img src="/assets/images/avatar-rizky-hasanuddin.webp" alt="">
+          <div class="content">
+            <p class="text"><a href="#" class="dark">Rizky Hasanuddin</a> sent you a private message</p>
+            <p>5 days ago</p>
+          </div>
+        </div>
+        <div class="extended-text">
+          <p> Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+          I'm already having lots of fun and improving my game.</p>
+        </div>
+        <div class="row-item">
+          <img src="/assets/images/avatar-kimberly-smith.webp" alt="">
+          <div class="content">
+            <p class="text"><a href="#" class="dark">Kimberly Smith</a> commented on your picture</p>
+            <p>1 week ago</p>
+          </div>
+          <img class="pic" src="/assets/images/image-chess.webp" alt="">
+        </div>
+        <div class="row-item">
+          <img src="/assets/images/avatar-nathan-peterson.webp" alt="">
+          <div class="content">
+            <p class="text"><a href="#" class="dark">Nathan Peterson</a> reacted to your recent post <a href="#" class="post">5 end-game strategies to increase your winrate</a></p>
+            <p>2 weeks ago</p>
+          </div>
+        </div>
+        <div class="row-item">
+          <img src="/assets/images/avatar-anna-kim.webp" alt="">
+          <div class="content">
+            <p class="text"><a href="#" class="dark">Anna Kim</a> left the group <a href="" class="grp">Chess Club</a></p>
+            <p>2 weeks ago</p>
+          </div>
+        </div>
+      </div>
+    </div> 
+  
+  <!-- </div>
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
