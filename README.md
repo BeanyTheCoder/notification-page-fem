@@ -1,2 +1,2 @@
-# notification-page-fe
+# notification-page-fem
 Notifications page for Frontend Mentor challenge
